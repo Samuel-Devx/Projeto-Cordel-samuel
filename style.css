@@ -62,7 +62,7 @@ header h1 {
 }
 
 .imagem1{
-    background-image: url(Imagens/background001.jpg);
+    background-image: url(/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -72,7 +72,7 @@ header h1 {
     padding-top: 4em;
 }
 .imagem2{
-    background-image: url(Imagens/background002.jpg);
+    background-image: url(/background002.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
