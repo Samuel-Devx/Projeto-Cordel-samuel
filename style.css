@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Birthstone&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Fascinate&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Birthstone&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Fascinate&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+:root {
+    --font1: "Sriracha", cursive;
+    --font2: "Passion One", sans-serif;
 }
 
 header {
@@ -22,10 +27,10 @@ header a  {
 }
 
 header h1 {
-    font-size: 3em;
+    font-size: 10vw;
     font-variant: small-caps;
-    font-family: ;
-}
+    font-family: var(--font2) 
+     }
 
     
 
@@ -38,7 +43,7 @@ header h1 {
     display: grid;
     padding-top: 5em;
      padding-left: 1em;
-
+    font-family: var(--font1);
 }
 
 
