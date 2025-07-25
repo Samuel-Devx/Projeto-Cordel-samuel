@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Birthstone&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Fascinate&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Passion+One:wght@400;700;900&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -8,10 +9,11 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    height: 30em;
+    height: 15em;
     display: grid;
     place-items: center;
     width: 100%;
+
 }
 header a  {
     color: white;
@@ -20,8 +22,12 @@ header a  {
 }
 
 header h1 {
-    font-size: 3em
+    font-size: 3em;
+    font-variant: small-caps;
+    font-family: ;
 }
+
+    
 
 .estf {
     margin: 30px;
